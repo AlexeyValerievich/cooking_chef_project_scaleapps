@@ -1,0 +1,34 @@
+ spring:
+    application:
+        name: cooking_chef_project_scaleapps
+
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: example1
+        password: 1234
+
+    liquibase:
+        change-log: classpath:/db/changelog/chengelog-master.yaml
+
+    jpa:
+        hibernate:
+            ddl-auto: validate
+
+    jmx:
+        enabled: true
+
+ logging:
+    level:
+         root: info
+
+ management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+    endpoint:
+        health:
+            show-details: always
+    health:
+      defaults:
+          enabled: true

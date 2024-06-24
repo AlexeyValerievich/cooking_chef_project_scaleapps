@@ -1,0 +1,43 @@
+2024-06-23 18:02:00,724 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 11436 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-23 18:02:00,756 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-23 18:02:09,269 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 18:02:12,762 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 2740 ms. Found 2 JPA repository interfaces.
+2024-06-23 18:02:15,615 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=507d4e39-9ea2-35bd-81e1-7b226a09382a
+2024-06-23 18:02:17,620 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'ru.evgen.cooking_chef_project.feign.FeignClientDemo' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-23 18:02:21,295 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-23 18:02:21,325 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-23 18:02:21,332 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-23 18:02:21,332 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-23 18:02:22,026 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-23 18:02:22,028 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 20849 ms
+2024-06-23 18:02:23,146 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-23 18:02:23,842 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11574592
+2024-06-23 18:02:23,846 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-23 18:02:24,627 INFO l.database [main] Set default schema name to public
+2024-06-23 18:02:26,060 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-23 18:02:26,079 INFO l.executor [main] Changelog query completed.
+2024-06-23 18:02:26,539 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 18:02:26,911 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-23 18:02:26,918 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-23 18:02:28,583 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 18:02:31,674 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 18:02:32,348 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 18:02:32,904 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 18:02:35,714 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-06-23 18:02:35,984 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-23 18:02:36,090 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-23 18:02:36,132 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 38.469 seconds (process running for 44.673)
+2024-06-23 18:02:37,289 INFO o.a.c.c.C.[.[.[/] [RMI TCP Connection(6)-192.168.0.125] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 18:02:37,290 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(6)-192.168.0.125] Initializing Servlet 'dispatcherServlet'
+2024-06-23 18:02:37,296 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(6)-192.168.0.125] Completed initialization in 4 ms
+2024-06-23 18:05:10,753 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void ru.evgen.cooking_chef_project.controller.GroupController.addGroup(ru.evgen.cooking_chef_project.dto.for_group.GroupRequestDto)]
+2024-06-23 18:07:06,956 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-7] Adding a new student Проверкин2 group 4
+2024-06-23 18:07:07,088 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-7] Student Проверкин2 saved to the database
+2024-06-23 18:07:44,038 INFO o.a.c.h.Http11NioProtocol [SpringApplicationShutdownHook] Pausing ProtocolHandler ["http-nio-8080"]
+2024-06-23 18:07:44,038 INFO o.a.c.c.StandardService [SpringApplicationShutdownHook] Stopping service [Tomcat]
+2024-06-23 18:07:44,038 INFO o.a.c.c.C.[.[.[/] [SpringApplicationShutdownHook] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-06-23 18:07:44,054 INFO o.a.c.h.Http11NioProtocol [SpringApplicationShutdownHook] Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-23 18:07:44,055 INFO o.a.c.h.Http11NioProtocol [SpringApplicationShutdownHook] Destroying ProtocolHandler ["http-nio-8080"]
+2024-06-23 18:07:44,071 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 18:07:44,086 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-23 18:07:44,118 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
