@@ -48,4 +48,9 @@ public class StudentController {
 
     }
 
+    @GetMapping
+    public int getSumSurname(){
+        return studentService.getSumStudents();
+    }
+
 }

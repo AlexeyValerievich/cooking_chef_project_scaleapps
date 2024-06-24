@@ -60,4 +60,12 @@ public class StudentServiceImp implements StudentService{
 
 
     }
+
+    @Override
+    public int getSumStudents(){
+        List<Student> students = studentRepository.findAll();
+        return students.stream()
+                .mapToInt((st) -> st.getSurname().length())
+                .sum();
+    }
 }
