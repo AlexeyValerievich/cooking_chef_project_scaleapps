@@ -48,7 +48,8 @@ public class GroupController {
     @Operation(summary = "Получить информацию о всех группах")
     @GetMapping
     public List<GroupResponsDto> getAllGroup(){
-       return groupService.getAllGroup();
+
+        return groupService.getAllGroup();
     }
 
     @Operation(summary = "Получить информацию по одной группе")
