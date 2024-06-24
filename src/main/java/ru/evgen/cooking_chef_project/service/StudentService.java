@@ -18,4 +18,5 @@ public interface StudentService {
 
     void deleteStudent(long groupsId, int studentId);
 
+    int getSumStudents();
 }

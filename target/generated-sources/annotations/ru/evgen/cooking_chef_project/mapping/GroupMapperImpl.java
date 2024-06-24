@@ -10,7 +10,7 @@ import ru.evgen.cooking_chef_project.entity.Group;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-06-09T11:21:03+0400",
+    date = "2024-06-24T21:01:04+0400",
     comments = "version: 1.5.5.Final, compiler: javac, environment: Java 21.0.2 (Oracle Corporation)"
 )
 @Component
